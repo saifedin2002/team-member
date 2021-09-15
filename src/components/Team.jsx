@@ -4,30 +4,32 @@ function Team() {
 	return (
 		<div className="row">
 			<TeamMember
-				p={{
+				info={{
 					name: 'saifedin',
 					img: 'https://picsum.photos/seed/picsum/200/300',
-					postion: 'developer',
+					position: 'developer',
 					phone: '+931 099 111 000 2 ',
-					email: 'exmple@mail.com'
+					email: 'exmaple@mail.com',
+					website: 'www.example.com'
 				}}
 			/>
 			<TeamMember
-				p={{
+				info={{
 					name: 'majied',
 					img: 'https://picsum.photos/seed/picsum/200/300',
-					postion: 'developer',
+					position: 'developer',
 					phone: '+931 099 111 000 2 ',
-					email: 'exmple@mail.com'
+					email: 'exmaple@mail.com',
+					website: 'www.example0.com'
 				}}
 			/>
 			<TeamMember
-				p={{
+				info={{
 					name: 'ahmed',
 					img: 'https://picsum.photos/seed/picsum/200/300',
-					postion: 'developer',
+					position: 'developer',
 					phone: '+931 099 111 000 2 ',
-					email: 'exmple@mail.com'
+					email: 'example@mail.com'
 				}}
 			/>
 		</div>
